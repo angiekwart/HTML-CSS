@@ -1,0 +1,87 @@
+body {
+	margin-top: 50px;
+	justify-content: center;
+	background-color: linear-gradient(40deg, aquamarine, pink, lemonchiffon);
+	font-size: 18px;
+	font-family: times new roman;
+}
+.main{
+	background-color: palevioletred;
+	background-image: url("../images/fitness1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: times new roman;
+
+	padding top: 300px;
+	padding-bottom: 200px;
+}
+
+.main_logo{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.about{
+	background-color: palevioletred;
+	background-image: url("../images/fitness1.jpg");
+	background-repeat: repeat;
+	
+}
+.aboutus{
+	background-image: url("../images/fitness1.jpg");
+background-size: cover;
+	font-family: times new roman;
+	font-weight: lighter;
+
+	padding top: 300px;
+	padding-bottom: 200px;}
+
+.contact{
+	background-image: url("../images/end.jpg");
+ 	background-size: cover;
+	font-family: times new roman;
+	font-weight: lighter;
+
+	padding top: 300px;
+	padding-bottom: 200px;}
+
+.username{
+	
+	width: 200px;
+	margin-left: 20px;
+}
+
+div.login {
+    padding: 20px 0px 20px 10px;
+    background: linear-gradient(50deg, #7041b5,#21d3c4, aquamarine, dodgerblue, blue);
+    width: 320px;
+    border-radius: 20px;
+    margin-left: 700px;
+    text-align: center;
+}
+input{
+	width: 300px;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 3px;
+}
+button.social{width: 300px;
+height: 25px;}
+
+button.face{width: 300px;
+height: 25px;}
+.final {
+	border: 2px solid black;
+	border-radius: 10px;
+  outline: #4CAF50 solid 10px;
+  margin-bottom: auto;  
+  padding: 20px;
+  text-align: center;
+}
+p {
+	font-weight: lighter;
+   font-family: times new roman;}
+
+li {display: inline;}
+.day3 {display: inline;}
