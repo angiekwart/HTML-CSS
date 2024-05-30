@@ -2,7 +2,7 @@
 <html>
 <head>
     <title> PhoneStackers</title>
-    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -37,6 +37,6 @@
 
 
 
-    <div> <p style="color: royalblue;"> This html/css project Is focused On creating a login page. I took my inspiration from instagram's login page. Therefore, I can say it's a shadow of their page. However, many of instagram's fonts and features are customized and solely theirs. They are the real owners of their work. </p></div>
+    <div> <p style="color: royalblue;"> This html/css project Is focused On creating a login page with html forms. I took my inspiration from instagram's login page and modified. This is because many of instagram's fonts and features are customized and solely theirs. They are the real owners of their work as I am with mine. </p></div>
 </body>
 </html>
