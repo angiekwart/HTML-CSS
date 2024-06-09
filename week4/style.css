@@ -1,0 +1,323 @@
+body{
+	background-color: rgba(173, 216, 230, 0.7);
+	height: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.all{
+	margin-top: 20px;
+	margin-left: 30%;
+}
+input{
+	font-size: 14px;
+	padding-top: 40px;
+	width: 250px;
+	border: none;
+	border-bottom: 1px ridge;
+	background: transparent;
+}
+
+.container{
+	background-color: white;
+	height: 210px;
+	width: 550px;
+	border-radius: 10px;
+	margin: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;	
+}
+
+.bluecon{
+	background-color: blue;
+	width: 500px;
+	height: 10px;
+	padding-left: 10px;
+	padding-right: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.con1{
+	padding-left: 10px;
+	margin:2px;
+}
+
+.reg{
+	padding: 10px;
+	font-size: 25px;
+/*	font-weight: lighter;	*/
+}
+.regw{
+	padding-left: 10px;
+}
+.hr{
+	padding: 5px 10px 10px 10px;
+}
+a{
+	text-decoration-line: none ;
+}
+/*Email section*/
+.con2{
+	background-color: white;
+	height: 100px;
+	width: 550px;
+	padding: 15px 10px 15px 0px;
+	margin: 10px 5px 0px 5px;
+	border-radius: 10px;	
+}
+.email{
+	padding: 10px 0px 10px 15px;
+	font-size: 16px;
+}
+
+/*Full Name section*/
+.con3{
+	background-color: white;
+	height: 120px;
+	width: 550px;
+	margin: 10px 5px ;
+	padding: 15px 10px 5px 0px;
+	justify-content: center;
+	border-radius: 10px;
+	
+}
+/*Phone Number*/
+.con4{
+	background-color: white;
+	height: 120px;
+	width: 550px;
+	padding: 15px 5px 0px 5px;
+	margin: 10px 5px 0px;
+	justify-content: center;
+	border-radius: 10px;
+}
+.ephone{
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+}
+
+/*Phone Number of
+ Next of kin*/
+.con5{
+	background-color: white;
+	height: 150px;
+	width: 540px;
+	padding: 15px 0px 15px 20px;
+	margin: 10px 10px 0px 5px;
+	justify-content: center;
+	border-radius: 10px;
+}
+.next{
+	margin: 10px 10px 10px 0px;
+	padding-left: 1px;	
+}
+.phone{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-right: 10px;
+}
+.phonein{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+/*Can you pay fees*/
+.con6{
+	background-color: white;
+	height: 130px;
+	width: 540px;
+	padding: 20px 0px 15px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+}
+.choose{
+	padding-bottom: 20px;
+	margin-right: 5px;
+}
+.int{
+	padding-left: 10px;
+	display: flex;
+	text-align: left;
+	justify-content: left;
+}
+
+/*Indicate who is going to pay fees*/
+.con7{
+	background-color: white;
+	height: 150px;
+	width: 540px;
+	padding: 25px 0px 15px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+}
+
+/*Location*/
+.con8{
+	background-color: white;
+	height: 100px;
+	width: 540px;
+	padding: 20px 0px 10px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+
+}
+.location{
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+}
+.con9{
+	background-color: white;
+	height: 100px;
+	width: 540px;
+	padding: 25px 0px 10px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+
+}
+.loc{
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+}
+.con10{
+	background-color: white;
+	height: 100px;
+	width: 540px;
+	padding: 25px 0px 10px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+
+}
+.sch{
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+}
+/*For the div con11, how did you hear about Codetrain*/
+.con11{
+	background-color: white;
+	height: 100px;
+	width: 540px;
+	padding: 25px 0px 10px 20px;
+	margin: 10px 10px 0px 5px;
+	border-radius: 10px;
+}
+.abt{
+	padding: 10px 0px 0px 15px;
+	font-size: 16px;
+}
+/*For the div con12, a copy of your responses will be emailed to you*/
+.con12{
+	color: gray;
+	background-color: white;
+	background: transparent;
+	height: 50px;
+	width: 540px;
+	padding: 25px 0px 0px 20px;
+	margin: 10px 0px 0px 5px;
+	border-radius: 10px;
+}
+/*For the div con13 which contains the button and clear form option*/
+.con13{
+	background-color: white;
+	height: 50px;
+	width: 540px;
+	margin: 0px 0px 0px 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+}
+/*For the green bar in-between submit button and the clear form*/
+.hrg{
+	line-height: -50px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: green;
+	opacity: 0.8;
+}
+/*For the div con13 submit button*/
+button{
+	width: 100px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	opacity: 0.9;
+	border-radius: 5px;
+	border: none;
+}
+/*After the submit button, note that this part is also part of the form but is treated differently.
+We have given the rest of the divs a margin of 410px to the left*/
+.con14{
+	background-color: white;
+	height: 50px;
+	width: 540px;
+	margin: 10px 0px 0px 410px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	color: gray;
+	background: transparent;
+}
+/*For the div con15 reCAPTCHA div*/
+.con15{
+	background-color: white;
+	height: 50px;
+	width: 560px;
+	margin: 0px 0px 10px 410px;
+	border-radius: 10px;
+	display: block;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	color: gray;
+	background: transparent;
+}
+.image{
+	display: flex;
+	margin-left: 45%;
+}
+.con15z{
+	margin-top: 3px;
+}
+/*For the div con15 anchor tag alone*/
+.con15 a{
+	text-decoration-color: gray;
+	text-decoration-line: underline;
+	color: gray;
+}
+.con16{
+	background-color: white;
+	width: 560px;
+	margin: 10px 0px 0px 410px;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	color: gray;
+	background: transparent;
+}
+/*For the div con16 anchor tag alone*/
+.hra{
+	text-decoration-color: gray;
+	text-decoration-line: underline;
+	color: gray;
+}
+.con17{
+	height: 50px;
+	width: 560px;
+	margin: 10px 0px 0px 410px;
+	display: block;
+	text-align: center;
+	align-items: center;
+	font-size: 25px;
+	color: gray;
+	background: transparent;
+}
