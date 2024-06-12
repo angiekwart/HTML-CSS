@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> PhoneStackers</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <div Class="login">
-
-        <div Class="login-box">
-            <!----Instagram uses 'Billabong Font Family' so I chose something close---->
-            <form id="input-box">
-                <h1><i>Fonegram</i></h1>
-                <input type="text" placeholder="Phone number, username, or email"/><br>
-                <input type="password" placeholder="Password"/><br>
-                <button Class="log">Log in</button>
-
-                <div> <p Class="d"><span>Or</span></p></div>
-
-                <button Class="social"><i class='bx bxl-facebook-circle'></i>Continue with Facebook</button>
-                <br>
-                <button Class="social"><i class='bx bxl-google'></i>Continue with Google</button>
-                <p Class="f"><a href="">Forgot password?</a></p>
-            </form>
-            <br>
+    <head>
+        <title>PhoneStackers</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="login">
+                <h1>Instagram</h1>
+                <div class="begin">
+                    <!----Instagram uses 'Billabong Font Family' so I chose something close---->
+                    <form class="login-box">
+                        <div id="input-box">
+                            <input type="text" placeholder="Phone number, username, or email"></input><br>
+                            <input type="password" placeholder="Password"></input><br>
+                            <button class="log">Log in</button>
+                        </div>   
+                        <div class="d">
+                            <hr>
+                            <p id="d"><span>OR</span></p>
+                            <hr>
+                        </div> 
+                    
+                        <button class="social"><i class='bx bxl-facebook-circle'></i>Continue with Facebook</button>
+                        <br>
+                        <button class="social"><i class='bx bxl-google'></i>Continue with Google</button>
+                        <p class="f"><a href="" id="f">Forgot password?</a></p>
+                    </form>
+            </div>          
+                </div>
+                <div class="account">
+                    <p>Don't have an account? <a href="" id="account">Sign up</a></p>
+                </div>
+                <div class="get">
+                    <p>Get the app.</p>
+                </div>
+                <div class="app">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"/>
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"/>
+                </div>
+            
+    
         </div>
-        <div Class="account">
-            <p> Don 't have an account? <a href="">Sign up</a></p>
-        </div>
-        <div Class="app">
-            <p> Get the app.</p>
-            <button Class="ap">Google Play</button>
-            <button Class="ap">Microsoft</button>
-        </div>
-    </div>
-
-
-
-    <div> <p style="color: royalblue;"> This html/css project Is focused On creating a login page with html forms. I took my inspiration from instagram's login page and modified. This is because many of instagram's fonts and features are customized and solely theirs. They are the real owners of their work as I am with mine. </p></div>
-</body>
+    </body>
 </html>
