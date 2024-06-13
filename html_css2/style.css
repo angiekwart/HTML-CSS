@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+body{
+    margin-left: 25%;
+    padding: 0;
+    background-color: rgb(227, 237, 253);
+    display: block;
+}
+.container{
+    margin-top: 12px;
+    border: 1px ridge;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    position: relative;
+    
+}
+.blue{
+    height: 8px;
+    background-color: rgb(66, 133, 244);
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+}
+form{
+    /* border: 2px solid yellow; */
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    width: 640px;
+    height: 350vh;
+}
+h2{
+    font-size: 24pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+/* This section is the first section of the registration form. Thus, the first box */
+.register{
+    border: 1px ridge;
+    height: 210px;
+    padding: 10px 0px 20px 10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    background-color: white;
+}
+.reg{
+    margin-top: 5px;
+    padding: 5px;
+}
+.space{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.sign{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+/* This section is for the email entry */
+.emailbox{
+    border: 1px ridge;
+    height: 100px;
+    padding: 30px 0px 10px 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    background-color: white;
+}
+.email{
+    margin: 5px 0px 0px 1px;
+    /* border: 2px solid; */
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+.email >input{
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 300px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+/* This section is the 3rd box. It is used for:
+Full Name, Phone Number, Location, Current or previous school, why you want to join and how you heard about them. */
+.box3{
+    border: 1px ridge;
+    height: 100px;
+    padding: 30px 0px 10px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    background-color: white;
+}
+/* This is the sub-div within box3 */
+.box3a{
+    margin: 5px 0px 0px 1px;
+    /* border: 2px solid; */
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+}
+.box3a >input{
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 300px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+.box3s{
+    border: 1px ridge;
+    height: 100px;
+    padding: 20px 0px 30px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    background-color: white;
+}
+/* This is the sub-div for the Next of kin */
+.kin{
+    margin-bottom: 5px;
+}
+.box3x{
+    border: 1px ridge;
+    height: 100px;
+    padding: 20px 0px 50px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    background-color: white;
+}
+.box4{
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+}
+.box4 >input{
+    padding-top: 30px;
+    margin-bottom: 5px;
+    width: 300px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+.box5 label{margin-left: 20px;}
+
+.box6a label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;}
+
+.boxlast{
+    border: 1px ridge;
+    height: 100px;
+    padding: 20px 0px 10px 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    /* background-color: white; */
+}
+.but{
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.but>hr{
+    margin: 15px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: rgb(13, 184, 13);
+    border-radius: 5px;
+}
+.but button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 76, 255, 0.788);
+}
+.bxl{
+    color: gray;
+    margin-bottom: 10px;
+}
+.capt{
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+.rc-anchor-logo-img {
+    width: 30px;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+}
+.capt a{
+    color: gray;
+    font-size: 10px;
+}
+.mini{
+    color: rgb(21, 21, 21);
+    gap: 15px;
+}
+.reportabuse{
+    margin-left: 50px;
+    color: gray;
+    font-size: 10px;
+}
+.reportabuse a{
+    color: gray;
+    font-size: 12px;
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(80, 80, 80);
+}
+.end span{
+    font-size: 25px;
+}
